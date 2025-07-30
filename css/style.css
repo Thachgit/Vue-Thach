@@ -1,0 +1,135 @@
+body {
+  background-color: #f4f6f8;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-brand {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.navbar .form-control {
+  border-color: #ffc107;
+  box-shadow: none;
+  transition: border-color 0.3s ease;
+}
+
+.navbar .form-control:focus {
+  border-color: #ffb300;
+  box-shadow: 0 0 5px #ffb300;
+}
+
+.navbar button.btn-warning {
+  background-color: #ffc107;
+  border-color: #ffc107;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.navbar button.btn-warning:hover {
+  background-color: #ffb300;
+  border-color: #ffb300;
+}
+
+/* Category buttons */
+.bg-white .btn-outline-secondary {
+  border-radius: 20px;
+  font-weight: 600;
+  padding: 0.25rem 1rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.bg-white .btn-outline-secondary:hover,
+.bg-white .btn-outline-secondary:focus {
+  background-color: #ffc107;
+  color: #212529;
+  border-color: #ffc107;
+  box-shadow: 0 0 5px #ffc107;
+}
+
+.card {
+  border: none;
+  border-radius: 0.75rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.card-body p {
+  font-size: 0.85rem;
+  color: #6c757d;
+}
+
+.btn-warning {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 0.4rem 0.75rem;
+}
+
+.btn-warning i {
+  font-size: 1.1rem;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.table thead {
+  border-bottom: 2px solid #ffc107;
+}
+
+.table tbody tr:hover {
+  background-color: #fff8e1;
+}
+
+.table td,
+.table th {
+  vertical-align: middle;
+}
+
+.btn-group .btn-outline-secondary {
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  font-size: 1rem;
+}
+
+.btn-outline-danger {
+  padding: 0.25rem 0.5rem;
+  font-size: 1.1rem;
+}
+
+footer {
+  font-size: 0.875rem;
+}
+
+footer h6 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+  .navbar .d-flex.w-50.mx-auto {
+    width: 100% !important;
+  }
+
+  .navbar .form-control,
+  .navbar button.btn-warning {
+    border-radius: 0.25rem;
+  }
+}
